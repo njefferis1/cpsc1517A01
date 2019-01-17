@@ -10,7 +10,9 @@ namespace OOPsReview
     {
         static void Main(string[] args)
         {
-            Die dice;
+            
+            Turn.TurnOne();
+            Turn.AdvTurn();
         }
     }
 }
